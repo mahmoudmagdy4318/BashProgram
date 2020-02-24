@@ -16,27 +16,27 @@ while true
 	;;
 	"Service Management")
 	 clear;
-	
+	 . ServiceManagement.sh
 	 break;		
 	;;
 	"User Management")
 	 clear;
-	
+	 . userManagement.sh 
 	 break;		
 	;;
 	"Software Management")
 	 clear;
-	
+	 ./softwaremanage.sh 
 	 break;		
 	;;
 	"Network Management")
 	 clear;
-	
+	 . network.sh			
 	 break;		
 	;;
 	"Sequrity")
 	 clear;
-	
+	 . sequrity.sh
 	 break;		
 	;;
 	"Quit")
